@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "pump": {
+      "type": "http",
+      "url": "https://mcp.pump.fun/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PUMP_API_KEY}"
+      }
+    }
+  }
+}
